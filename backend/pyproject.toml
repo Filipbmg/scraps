@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snowdrop-api"
+version = "0.2.0"
+description = "Snowdrop's modular media monitoring API"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "uvicorn>=0.32,<1",
+    "httpx>=0.28,<1",
+    "feedparser>=6.0.12,<7",
+    "scrapling>=0.4.15,<0.5",
+]
+
+[project.optional-dependencies]
+dev = []
+telegram = ["telethon>=1.42,<2"]
+youtube = ["yt-dlp[default]>=2026.9.1", "youtube-transcript-api>=1.2,<2"]
+x = ["twikit>=2.3,<3"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.setuptools.package-data]
+"app.features.dashboard" = ["demo.json"]

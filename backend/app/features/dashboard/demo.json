@@ -1,0 +1,70 @@
+{
+  "mode": "demo",
+  "updated_at": "2026-10-01T09:42:00Z",
+  "periods": {
+    "7d": {
+      "metrics": [
+        {"label": "Total mentions", "value": "1,248", "change": "+18.6%", "detail": "vs. previous week", "icon": "mentions", "sparkline": [20, 35, 26, 42, 38, 64, 58, 78]},
+        {"label": "Active sources", "value": "24", "change": "+3", "detail": "new sources this week", "icon": "sources", "sparkline": [20, 20, 30, 30, 40, 40, 56, 56]},
+        {"label": "Positive sentiment", "value": "68%", "change": "+7.2%", "detail": "vs. previous week", "icon": "sentiment", "sparkline": [26, 36, 32, 44, 40, 60, 57, 72]},
+        {"label": "Estimated reach", "value": "86.4k", "change": "+12.8%", "detail": "vs. previous week", "icon": "reach", "sparkline": [15, 30, 25, 40, 34, 49, 64, 76]}
+      ],
+      "trend": [
+        {"label": "Sep 25", "news": 53, "social": 48, "other": 17},
+        {"label": "Sep 26", "news": 72, "social": 61, "other": 23},
+        {"label": "Sep 27", "news": 55, "social": 49, "other": 23},
+        {"label": "Sep 28", "news": 88, "social": 76, "other": 29},
+        {"label": "Sep 29", "news": 72, "social": 65, "other": 25},
+        {"label": "Sep 30", "news": 117, "social": 96, "other": 41},
+        {"label": "Oct 1", "news": 110, "social": 87, "other": 41}
+      ],
+      "sentiment": {"positive": 68, "neutral": 22, "negative": 10},
+      "mentions": 1248,
+      "change": "+18.6%"
+    },
+    "30d": {
+      "metrics": [
+        {"label": "Total mentions", "value": "4,862", "change": "+24.3%", "detail": "vs. previous month", "icon": "mentions", "sparkline": [19, 28, 24, 48, 40, 56, 61, 78]},
+        {"label": "Active sources", "value": "24", "change": "+6", "detail": "new sources this month", "icon": "sources", "sparkline": [12, 18, 18, 32, 38, 45, 52, 60]},
+        {"label": "Positive sentiment", "value": "64%", "change": "+5.1%", "detail": "vs. previous month", "icon": "sentiment", "sparkline": [19, 26, 35, 31, 46, 52, 49, 64]},
+        {"label": "Estimated reach", "value": "312k", "change": "+21.6%", "detail": "vs. previous month", "icon": "reach", "sparkline": [18, 29, 26, 45, 38, 55, 69, 80]}
+      ],
+      "trend": [
+        {"label": "Sep 2–5", "news": 180, "social": 154, "other": 67},
+        {"label": "Sep 6–9", "news": 241, "social": 218, "other": 85},
+        {"label": "Sep 10–13", "news": 211, "social": 179, "other": 91},
+        {"label": "Sep 14–17", "news": 302, "social": 260, "other": 98},
+        {"label": "Sep 18–21", "news": 268, "social": 228, "other": 90},
+        {"label": "Sep 22–25", "news": 429, "social": 362, "other": 151},
+        {"label": "Sep 26–29", "news": 308, "social": 251, "other": 101},
+        {"label": "Sep 30–Oct 1", "news": 227, "social": 183, "other": 178}
+      ],
+      "sentiment": {"positive": 64, "neutral": 25, "negative": 11},
+      "mentions": 4862,
+      "change": "+24.3%"
+    }
+  },
+  "sources": [
+    {"id": "guardian", "name": "The Guardian", "kind": "News", "mark": "G", "color": "navy", "mentions": 342, "url": "https://www.theguardian.com"},
+    {"id": "reddit", "name": "Reddit", "kind": "Forums", "mark": "r/", "color": "orange", "mentions": 286, "url": "https://www.reddit.com"},
+    {"id": "techcrunch", "name": "TechCrunch", "kind": "News", "mark": "tc", "color": "green", "mentions": 214, "url": "https://techcrunch.com"},
+    {"id": "linkedin", "name": "LinkedIn", "kind": "Social", "mark": "in", "color": "blue", "mentions": 178, "url": "https://www.linkedin.com"},
+    {"id": "medium", "name": "Medium", "kind": "Blogs", "mark": "M", "color": "ink", "mentions": 136, "url": "https://medium.com"},
+    {"id": "bbc", "name": "BBC News", "kind": "News", "mark": "BBC", "color": "ink", "mentions": 92, "url": "https://www.bbc.com/news"}
+  ],
+  "mentions": [
+    {"id": "m1", "source_id": "guardian", "title": "A quieter revolution: the brands making sustainability part of everyday life", "excerpt": "A new generation of purpose-led companies is finding that small, thoughtful changes can have an outsized impact on how we live and shop.", "published_at": "2026-10-01T09:30:00Z", "sentiment": "positive", "keywords": ["Sustainability", "Brand watch"], "saved": false},
+    {"id": "m2", "source_id": "reddit", "title": "What does a genuinely sustainable brand look like in 2026?", "excerpt": "The community shares the products, practices, and people that are moving the conversation forward — and the questions still worth asking.", "published_at": "2026-10-01T09:04:00Z", "sentiment": "neutral", "keywords": ["Sustainability"], "saved": true},
+    {"id": "m3", "source_id": "techcrunch", "title": "Climate-tech startups are turning better data into real-world change", "excerpt": "Investors are looking beyond the pitch deck as a new wave of founders connects environmental intelligence with measurable outcomes.", "published_at": "2026-10-01T08:42:00Z", "sentiment": "positive", "keywords": ["Climate tech", "Industry trends"], "saved": false},
+    {"id": "m4", "source_id": "linkedin", "title": "The most valuable thing a brand can do right now? Listen.", "excerpt": "Thoughtful listening turns scattered conversations into clear decisions. Here are five lessons from teams building closer connections with their communities.", "published_at": "2026-10-01T08:18:00Z", "sentiment": "positive", "keywords": ["Brand watch"], "saved": true},
+    {"id": "m5", "source_id": "medium", "title": "Beyond the green label: why transparency needs to come first", "excerpt": "When sustainability claims outpace the evidence, trust is the first thing to disappear. A closer look at the gap between promises and practice.", "published_at": "2026-09-30T16:20:00Z", "sentiment": "negative", "keywords": ["Sustainability", "Industry trends"], "saved": false},
+    {"id": "m6", "source_id": "bbc", "title": "New research maps the changing habits of conscious consumers", "excerpt": "A national survey finds more shoppers are weighing durability and repairability alongside price, with differences across generations.", "published_at": "2026-09-30T14:10:00Z", "sentiment": "neutral", "keywords": ["Industry trends"], "saved": true},
+    {"id": "m7", "source_id": "guardian", "title": "Community gardens bring a little more green to city life", "excerpt": "Neighbourhood projects are creating space for nature and connection, one shared patch of soil at a time.", "published_at": "2026-09-29T11:25:00Z", "sentiment": "positive", "keywords": ["Sustainability"], "saved": false},
+    {"id": "m8", "source_id": "techcrunch", "title": "Open climate data becomes a new foundation for small businesses", "excerpt": "Accessible environmental datasets are helping smaller teams plan supply chains and understand their footprint without a dedicated research department.", "published_at": "2026-09-28T10:15:00Z", "sentiment": "positive", "keywords": ["Climate tech"], "saved": false}
+  ],
+  "activity": [
+    {"id": "a1", "title": "Your morning brief is ready", "description": "A sample digest of the conversations that matter.", "time": "12 min ago"},
+    {"id": "a2", "title": "A little momentum for sustainability", "description": "Demo mentions are up 18.6% on the previous week.", "time": "38 min ago"},
+    {"id": "a3", "title": "Welcome to your Snowdrop workspace", "description": "Explore the dashboard. All data is illustrative.", "time": "1 hour ago"}
+  ]
+}
